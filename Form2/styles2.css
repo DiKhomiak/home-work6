@@ -1,0 +1,111 @@
+main {
+  background: #eefffb;
+}
+.main__container {
+  margin: 0px auto;
+  padding: 185px 54px 55px;
+  max-width: 1512px;
+  min-height: 982px;
+  background: #eefffb;
+  background-image: url(./assets2/background.png);
+  background-size: cover;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.center__container {
+  max-width: 772px;
+  margin-bottom: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  display: block;
+  width: 177px;
+  height: 56px;
+  margin-bottom: 38px;
+}
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #71ab8f;
+  margin-bottom: 104px;
+}
+.form {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #e4e4e4;
+  border-radius: 30px;
+  padding: 27px 33px 40px;
+}
+.form__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+.form__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.35);
+  margin-bottom: 53px;
+}
+.form__email {
+  min-width: 707px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #e4e4e4;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.form__email input {
+  padding: 17px 25px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.35);
+  flex: 1;
+}
+.form__email button {
+  padding: 21.5px 26px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+.bottom__container {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+.bottom__container a {
+  padding: 13px 25px;
+  background: rgba(53, 143, 100, 0.1);
+  border: 1px solid rgba(53, 143, 100, 0.42);
+  border-radius: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #358f64;
+  text-decoration: none;
+}
