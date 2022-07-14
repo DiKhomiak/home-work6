@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form4</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="./styles4.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="main_container">
+        <h2>FORM</h2>
+        <div class="general__form">
+          <div>
+            <img class="logo" src="./assets4/user-logo.svg" alt="user" /><input
+              class="general__form__item"
+              type="text"
+              placeholder=" UserName"
+            />
+          </div>
+          <div>
+            <img class="logo" src="./assets4/mail-logo.svg" alt="mail" /><input
+              class="general__form__item"
+              type="email"
+              placeholder=" E-mail"
+            />
+          </div>
+          <div>
+            <img
+              class="logo"
+              src="./assets4/password-logo.svg"
+              alt="password"
+            /><input
+              class="general__form__item"
+              type="password"
+              placeholder=" Password"
+            />
+          </div>
+          <div>
+            <img class="logo" src="./assets4/country-logo.svg" alt="country" />
+            <img
+              class="list__button"
+              src="./assets4/list-button.svg"
+              alt="button"
+            /><select class="general__form__item" name="country">
+              <option value="">Country</option>
+              <option value="Australia">Australia</option>
+              <option value="Canada">Canada</option>
+              <option value="UK">UK</option>
+              <option value="USA">USA</option>
+            </select>
+          </div>
+        </div>
+
+        <p class="title _level">Level of development</p>
+        <div class="form _level">
+          <div class="form__item _level">
+            <label>
+              <input class="checkbox" type="radio" name="level" />
+              <span class="checkbox__cicle"></span> Basic</label
+            >
+          </div>
+          <div class="form__item _level">
+            <label>
+              <input class="checkbox" type="radio" name="level" />
+              <span class="checkbox__cicle"></span> Medium</label
+            >
+          </div>
+          <div class="form__item _level">
+            <label>
+              <input class="checkbox" type="radio" name="level" />
+              <span class="checkbox__cicle"></span> Advanced</label
+            >
+          </div>
+        </div>
+
+        <p class="title _skills">Programming skills</p>
+        <div class="form _skills">
+          <div class="form__item _skills">
+            <label
+              ><input class="checkbox" type="checkbox" />
+              <span class="checkbox__square"></span> Java
+            </label>
+          </div>
+          <div class="form__item _skills">
+            <label
+              ><input class="checkbox" type="checkbox" />
+              <span class="checkbox__square"></span> Python</label
+            >
+          </div>
+          <div class="form__item _skills">
+            <label
+              ><input class="checkbox" type="checkbox" />
+              <span class="checkbox__square"></span> JavaScript</label
+            >
+          </div>
+        </div>
+        <button>SEND</button>
+      </div>
+    </main>
+  </body>
+</html>

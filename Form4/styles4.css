@@ -1,0 +1,132 @@
+.main_container {
+  margin: 0px auto;
+  max-width: 508px;
+  min-height: 666px;
+  padding: 27px 40px 52px;
+  background: #ffffff;
+  border-radius: 14px 10px 2px;
+  filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.25));
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #5d5fef;
+}
+
+.main_container h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #5d5fef;
+}
+
+.general__form {
+  margin-bottom: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.general__form div {
+  position: relative;
+}
+.general__form .logo {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+}
+.list__button {
+  position: absolute;
+  bottom: 18px;
+  right: 22px;
+}
+.general__form__item {
+  padding: 14px 20px 7px 60px;
+  min-width: 428px;
+  border: 2px solid #dadada;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5d5fef;
+}
+
+.general__form ::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5d5fef;
+}
+
+.general__form select {
+  appearance: none;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+}
+
+.form__item {
+  padding: 11px 14px 11px 10px;
+  border: 2px solid #dadada;
+  border-radius: 5px;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.checkbox {
+  appearance: none;
+}
+.checkbox__cicle {
+  border: 3px solid #5d5fef;
+  width: 23px;
+  height: 23px;
+  border-radius: 100%;
+  display: inline-block;
+}
+.checkbox:checked + .checkbox__cicle {
+  background-color: #5d5fef;
+}
+.checkbox:focus + .checkbox__cicle {
+  border: 3px solid #252657;
+}
+.checkbox__square {
+  border: 3px solid #5d5fef;
+  border-radius: 3px;
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+}
+.checkbox:checked + .checkbox__square {
+  background-color: #5d5fef;
+}
+.checkbox:focus + .checkbox__square {
+  border: 3px solid #252657;
+}
+.form__item._skills {
+  margin-bottom: 27px;
+}
+
+button {
+  background-color: #5d5fef;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  min-width: 428px;
+  padding: 12px;
+}
