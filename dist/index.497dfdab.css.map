@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;;AAKA","sources":["src/reset.css"],"sourcesContent":["* {\r\n  box-sizing: border-box;\r\n  margin: 0px;\r\n  padding: 0px;\r\n}\r\nhtml {\r\n  font-size: 62.5%;\r\n  scroll-behavior: smooth;\r\n}\r\n"],"names":[],"version":3,"file":"index.497dfdab.css.map","sourceRoot":"/__parcel_source_root/"}

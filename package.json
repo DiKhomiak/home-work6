@@ -1,0 +1,25 @@
+{
+  "name": "hw6",
+  "version": "1.0.0",
+  "description": "form 3",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiKhomiak/home-work6.git"
+  },
+  "author": "DiKhomiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiKhomiak/home-work6/issues"
+  },
+  "homepage": "https://github.com/DiKhomiak/home-work6#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
+  }
+}
