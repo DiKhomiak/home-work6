@@ -9,4 +9,8 @@ html {
   font-size: 62.5%;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=index.497dfdab.css.map */
